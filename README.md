@@ -9,7 +9,7 @@ If `python-lzo` is not present, you' ll see "LZO compression support is not avai
 
 ```bash
 pip install python-lzo
-# or poetry add python-lzo
+# or uv add python-lzo
 ```
 
 In Windows without a functioning C++ environment, you won't be able to install `python-lzo` via `pip`. Head to
@@ -18,7 +18,7 @@ In Windows without a functioning C++ environment, you won't be able to install `
 ## Installation
 ```bash
 pip install readmdict
-# or poetry add readmdict
+# or uv add readmdict
 ```
 
 ## Usage
