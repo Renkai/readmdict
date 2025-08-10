@@ -16,6 +16,9 @@ Repository = "https://github.com/ffreemt/readmdict"
 [project.scripts]
 readmdict = "readmdict.__main__:main"
 
+[tool.hatchling.build.targets.wheel]
+packages = ["src/readmdict"]
+
 [project.optional-dependencies]
 dev = [
     "pytest>=8.4.1",

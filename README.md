@@ -30,7 +30,7 @@ readmdict
 ```
 or
 ```bash
-python -m readmdict
+uv run readmdict
 ```
 
 
@@ -40,7 +40,7 @@ readmdict file.mdx
 ```
 or
 ```bash
-python -m readmdict file.mdx
+uv run readmdict file.mdx
 ```
 
 *   Print a short summary
@@ -49,7 +49,7 @@ readmdict -h
 ```
 or
 ```bash
-python -m readmdict -h
+uv run readmdict -h
 ```
 
 ### In Python code
